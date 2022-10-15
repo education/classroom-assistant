@@ -1,29 +1,32 @@
 
-# Installing for Development
+# Set-Up for Development
 
-A local version is simple to set up:
+Setting up your local environment:
 
 ```sh
 git clone https://github.com/education/classroom-assistant
 cd classroom-assistant
+```
+Install dependencies:
+
+```
 script/setup
 ```
-
-Once installed, run the application with
+Run the application:
 
 ```
 script/run
 ```
 
-## Building
+## Build the application
 
-You can build Classroom Assistant into executables by running
+You can build Classroom Assistant into executable:
 
 ```
 script/package
 ```
 
-Please follow platform-specific instructions below:
+Please follow `MacOS` specific instructions below:
 
 ### MacOS
 
@@ -42,5 +45,5 @@ You can retrieve a list of developer identities available in your keychain by ru
 security find-identity -p codesigning
 ```
 
-Do this and all will be well
+Now, Good to Go.
 
